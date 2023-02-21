@@ -1,5 +1,5 @@
 {% set name = "python-binance" %}
-{% set version = "1.0.16" %}
+{% set version = "1.0.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-binance-{{ version }}.tar.gz
-  sha256: 3796bfa0124d376cf9ad42f03168d7630de56f936613eb39d05a4b82e1b1f1eb
+  sha256: 364a0ff0d2892867d6851d90e8567c54a194fc62783f20da766a5c7655f57746
 
 build:
   number: 0
@@ -26,6 +26,7 @@ requirements:
     - requests
     - six
     - ujson
+    - pycryptodome
     - websockets ==9.1
 
 test:
