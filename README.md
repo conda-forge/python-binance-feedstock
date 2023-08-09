@@ -1,11 +1,11 @@
-About python-binance
-====================
+About python-binance-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-binance-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sammchardy/python-binance
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-binance-feedstock/blob/main/LICENSE.txt)
 
 Summary: Binance Exchange API python implementation for automated trading
 
