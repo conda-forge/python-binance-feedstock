@@ -1,5 +1,5 @@
 {% set name = "python-binance" %}
-{% set version = "1.0.17" %}
+{% set version = "1.0.18" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-binance-{{ version }}.tar.gz
-  sha256: 364a0ff0d2892867d6851d90e8567c54a194fc62783f20da766a5c7655f57746
+  sha256: 9c5259e8205bdfc8857eb9e8ca3dfca808184abb873a76e75c665daab48a7f34
 
 build:
   number: 0
