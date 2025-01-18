@@ -11,7 +11,7 @@ source:
   sha256: fdbd69ee2b386c908da87141da6686c43c353e1b4ca7b08502f002f6fd7a8c72
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,11 +19,11 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - aiohttp
     - dateparser
-    - python >=3.6
+    - python >={{ python_min }}
     - requests
     - six
     - ujson
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/sammchardy/python-binance
