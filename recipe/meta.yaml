@@ -28,7 +28,7 @@ requirements:
     - six
     - ujson
     - pycryptodome
-    - websockets ==9.1
+    - websockets
 
 test:
   imports:
