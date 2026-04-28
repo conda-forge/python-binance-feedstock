@@ -16,7 +16,6 @@ Documentation: https://python-binance.readthedocs.io/
 This is an unofficial Python wrapper for the Binance exchange REST API
 v3.
 
-
 Current build status
 ====================
 
