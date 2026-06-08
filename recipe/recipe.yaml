@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-binance
-  version: "1.0.36"
+  version: "1.0.37"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: d7b0668ff1b620b30d95b52f9f61b557748eac2d6c4d5f17fe21c356e5e0c541
+  sha256: 03a302d8c598d270f1206adf165450ce4d0df58691e92a5e0bff665831f75a1e
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
